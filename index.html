@@ -1,0 +1,11 @@
+<h1 id="title" style="text-align: center; padding-top: 50px; font-size: 40px; color: grey;">WHAT'S YOUR SPIRIT CAT?</h1>
+<img id="image" onclick="location.reload()" style="width: 40%; margin-left:30%;" src="http://thecatapi.com/api/images/get?format=src&type=gif" />
+<p onclick="location.reload()" style="text-align: center; color: grey;">CLICK ME</p>
+
+<script>
+  
+var names = ["catinator", "fluffykins", "Pickles", "Kitty Kurek", "Furnando", "Catpachino", "Imakat", "Shamoo", "Jennifurr", "Lucifurr", "Luke Skywhisker", "Bob Reborn as Cat", "Drew Hairymore", "Cleo-cat-ra", "Shakes-purr", "Fur-gie", "Margaret Scratcher", "Wigglebutt"];
+
+document.getElementById('title').innerHTML = "<strong> WHAT'S YOUR SPIRIT CAT? </strong> <br/> <br/>" + names[Math.floor(Math.random() * names.length)];
+
+</script>
